@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@300&display=swap');
+
+body {
+    font-family: josefin+Sans;
+    margin:0;
+    background-color: aliceblue;
+}
+
+h1, h2, h3 {
+    font-family: dancing+script;
+    color: #3a3a3a;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.black-background {
+    background-color: black;
+}
+#home {
+    background-image: ('https://images.pexels.com/photos/697673/pexels-photo-697673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
