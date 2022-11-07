@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
     margin: o;
@@ -7,6 +7,7 @@
 }
  
 body {
+    background-color:	rgb(128, 128, 128);
     font-family: Lato, sans-serif;
     font-weight: 300;
     color:#3a3a3a;
@@ -56,10 +57,9 @@ menu a:hover {
 /* paints image and cover text */
 
 #paints {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    position:relative;
 }
 
 #cover-text, #cover-text h2 {
@@ -67,9 +67,10 @@ menu a:hover {
 }
 
 #paints-image {
-    height: 60px;
-    width: 50%;
-    background: url(../css/images/guitar.jpg);
+    height: 400px;
+    width: 100%;
+    background: url(../css/perfect-image.jpeg);
+    background-repeat: no-repeat;
 }
 
 
@@ -85,7 +86,7 @@ height: 200px;
 padding-top: 40px;
 padding-left: 10px;
 
-background-color: rgba(241, 109, 107, .7);
+background-color: rgba(241, 109, 107, 0.7);
 
 bottom: 30px;
 right: 150px;
@@ -96,10 +97,90 @@ position: absolute;
 /* background image */
 
 #artist {
-        background-image: url('../css/images/background.images.jpg');
-        background-repeat: no-repeat;
+        background-color: ;
         background-size: cover;
         background-position: center;
         width: 100%;
-        overflow: hidden;
 }
+
+/* artist */
+
+#leonardo {
+    background-color:rgb(240, 245, 245);
+    position:static;
+    top: 16px;
+    left: 20px;
+   
+}
+
+#pablo-picasso {
+    background-color: rgb(240, 245, 245);
+    position:static;
+    top: 16px;
+    left: 20px;
+    
+}
+
+#roy-lichtenstein {
+    background-color:rgb(240, 245, 245);
+    position: static;
+    top:16px; 
+    left: 20px;
+    bottom: 30px
+}
+
+.leonardo {
+	width: 50% ;
+	margin: 50px;
+	display:block;
+    padding: 0%;
+}
+.pablo-picasso {
+    width: 50% ;
+    padding:0% ;
+    display:block;
+    margin: 50px;
+}
+
+.roy-lichtenstein {
+    width: 50%;
+    padding:0% ;
+    display:block; 
+    margin: 50px;
+}
+
+.text.em {
+    font-family:'Kolker Brush', cursive;
+    font-weight: 400;
+}
+
+#image-pablo {
+    font-weight: 1200px;
+    height: 300px;
+    position:relative;
+    right: 0px;
+    border-right: 100%;
+}
+#image-leonardo {
+    width: 1px;
+    height: 100%;
+    position:relative;
+    right: 20px;
+    left: 60%;
+    top: 16px;
+    display: block;
+}
+#image-roy {
+     font-weight: 1200px;
+    height: 300px;
+    position:relative;
+    right: 0px;
+    border-right: 100%;
+
+}
+
+
+
+
+
+
